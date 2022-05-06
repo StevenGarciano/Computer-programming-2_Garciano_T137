@@ -13,7 +13,7 @@ fptr = fopen("C:\text.txt","a");
     scanf("%d",&n);
     printf("\nEnter text: \n");
 
-while(i<n){
+ while(i<n){
     scanf("%s",&str);
     fprintf(fptr,"\n",str);
     fputs(str,fptr);
