@@ -5,7 +5,7 @@ int main() {
     FILE * fptr;
     int i, n;
     int id, math, science, english, sum = 0, average = 0;
-    char name[255];
+    char name[300];
 
     char str[100];
     char fname[20];
